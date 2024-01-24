@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3534887-0ab9-45fd-a8d3-31779406dc4e" name="Changes" comment="Dockerfile">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    <list default="true" id="a3534887-0ab9-45fd-a8d3-31779406dc4e" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiProvider"><![CDATA[{
@@ -42,11 +46,14 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.Main.executor": "Run",
+    "Docker.Docker Image (1).executor": "Run",
+    "Docker.Docker Image.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
+    "Maven.seMethods [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/mongo-intergration",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,10 +61,71 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/juliakhit/IdeaProjects/seMethods/src/main/java/com/napier/sem/Main.java",
-    "settings.editor.selected.configurable": "Docker",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Docker.Docker Image">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker Image (1)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mongo:latest" />
+          <option name="containerName" value="mongo-dbserver" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mongo:latest" />
+          <option name="containerName" value="" />
+          <option name="commandLineOptions" value="-p 27000:27017 " />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker Image (1)" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705983732914</updated>
       <workItem from="1705983734049" duration="1318000" />
-      <workItem from="1705985059329" duration="3270000" />
+      <workItem from="1705985059329" duration="14397000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files">
       <option name="closed" value="true" />
@@ -101,7 +169,127 @@
       <option name="project" value="LOCAL" />
       <updated>1705986833796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="main.yml -&gt; change java version to 17">
+      <option name="closed" value="true" />
+      <created>1706001424132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706001424132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed Read me">
+      <option name="closed" value="true" />
+      <created>1706002137794</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706002137794</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed Read me">
+      <option name="closed" value="true" />
+      <created>1706002339502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706002339502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed Read me">
+      <option name="closed" value="true" />
+      <created>1706002507485</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706002507485</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed Read me">
+      <option name="closed" value="true" />
+      <created>1706002656567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706002656567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Software Engineering Methods">
+      <option name="closed" value="true" />
+      <created>1706019084682</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706019084682</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add New Software Engineering Methods">
+      <option name="closed" value="true" />
+      <created>1706070215011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706070215011</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add New Software Engineering Methods">
+      <option name="closed" value="true" />
+      <created>1706070371694</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706070371694</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed adding New Software Engineering Methods">
+      <option name="closed" value="true" />
+      <created>1706070741159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706070741159</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed adding New Software Engineering Methods">
+      <option name="closed" value="true" />
+      <created>1706070918565</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706070918565</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Mongo DB refresh">
+      <option name="closed" value="true" />
+      <created>1706073889291</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706073889291</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated app.java">
+      <option name="closed" value="true" />
+      <created>1706074254882</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706074254882</updated>
+    </task>
+    <task id="LOCAL-00017" summary="pom updated">
+      <option name="closed" value="true" />
+      <created>1706076302381</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706076302381</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated">
+      <option name="closed" value="true" />
+      <created>1706080735967</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706080735967</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated">
+      <option name="closed" value="true" />
+      <created>1706081554512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706081554512</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +299,16 @@
     <MESSAGE value="First commit, adding initial files" />
     <MESSAGE value="Added hello world" />
     <MESSAGE value="Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile" />
+    <MESSAGE value="main.yml -&gt; change java version to 17" />
+    <MESSAGE value="Changed Read me" />
+    <MESSAGE value="Add Software Engineering Methods" />
+    <MESSAGE value="Add New Software Engineering Methods" />
+    <MESSAGE value="Completed adding New Software Engineering Methods" />
+    <MESSAGE value="Mongo DB refresh" />
+    <MESSAGE value="Updated app.java" />
+    <MESSAGE value="pom updated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
