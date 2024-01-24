@@ -10,5 +10,5 @@ This is README file
 * Master Build Status ![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/ayekhitbo4066/LAB1/main.yml?branch=master)
 * Develop Build Status ![GitHub Workflow Status (develop)](https://img.shields.io/github/actions/workflow/status/ayekhitbo4066/LAB1/main.yml?branch=develop)
 * License [![LICENSE](https://img.shields.io/github/license/ayekhitbo4066/LAB1.svg?style=flat-square)](https://github.com/ayekhitbo4066/LAB1/blob/master/LICENSE)
-* Release [![Releases](https://img.shields.io/github/release/ayekhitbo4066/sem/all.svg?style=flat-square)](https://github.com/ayekhitbo4066/sem/releases)
+* Release [![Releases](https://img.shields.io/github/release/ayekhitbo4066/LAB1/all.svg?style=flat-square)](https://github.com/ayekhitbo4066/sem/releases)
 
