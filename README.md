@@ -7,4 +7,8 @@ This is README file
 [![Releases](https://img.shields.io/github/release/ayekhitbo4066/sem/all.svg?style=flat-square)](https://github.com/ayekhitbo4066/sem/releases)
 
 # Software Engineering Methods
-![GitHub Workflow Status (develop)](https://img.shields.io/github/workflow/status/ayekhitbo4066/LAB1/main.yml/develop?style=flat-square)
+* Develop Build Status ![GitHub Workflow Status (develop)](https://img.shields.10/github/actions/workflow/status/STharHtet/sem1/main.yml?branch=master)
+* Develop Build Status ![GitHub Workflow Status (develop)](https://imq.shields.10/github/actions/workflow/status/STharHtet/sem1/main.yml?branch=develop)
+* License [![LICENSE](https://img.shields.10/github/license/STharHtet/sem.svg?style=flat-square)](https://github.com/STharHtet/sem1/blob/master/LICENSE)
+* Release [![Releases](https://imq.shields.io/qithub/release/STharHtet/sem1/all.svq?style=flat-square)](https://github.com/STharHtet/sem1/releases)
+
