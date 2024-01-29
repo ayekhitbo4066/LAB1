@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3534887-0ab9-45fd-a8d3-31779406dc4e" name="Changes" comment="Main.yml update">
+    <list default="true" id="a3534887-0ab9-45fd-a8d3-31779406dc4e" name="Changes" comment="App.java update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
@@ -119,6 +120,7 @@
     <configuration name="db/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="db/Dockerfile" />
         </settings>
       </deployment>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile" />
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +163,7 @@
       <workItem from="1705985059329" duration="14397000" />
       <workItem from="1706117353965" duration="11000" />
       <workItem from="1706241056905" duration="4421000" />
-      <workItem from="1706497366321" duration="792000" />
+      <workItem from="1706497366321" duration="1455000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files">
       <option name="closed" value="true" />
@@ -331,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706497484577</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="App.java update">
+      <option name="closed" value="true" />
+      <created>1706498273600</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706498273600</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +373,8 @@
     <MESSAGE value="updated" />
     <MESSAGE value="MySQL connect and new dockerfile in db folder" />
     <MESSAGE value="Main.yml update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main.yml update" />
+    <MESSAGE value="App.java update" />
+    <option name="LAST_COMMIT_MESSAGE" value="App.java update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
